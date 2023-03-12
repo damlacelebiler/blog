@@ -1,0 +1,46 @@
+/* header */
+body {
+    width: 80;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:beige;
+}
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+}
+ul.menu {
+    background-color:brown;
+    height: 40px;
+}
+ul.menu li {
+    float: left;
+    height: 40px;
+}
+ul.menu li a {
+    display: block;
+    font-size: 14px;
+    color:antiquewhite;
+    padding: 0 15px;
+    line-height: 40px;
+}
+/* Call me by your name */
+.box{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+    padding: 250px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 5);
+    display: flex;
+
+}
+
